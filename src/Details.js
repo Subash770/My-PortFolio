@@ -111,58 +111,52 @@ export const techStackDetails = {
 // Enter your Project Details here
 export const projectDetails = [
   {
-    title: "Project title 1",
-    image: projectImage1,
-    description: `This is sample project description random things are here in description This is sample
-project lorem ipsum generator for dummy content`,
-    techstack: "HTML/CSS, JavaScript",
-    previewLink: "https://google.com",
-    githubLink: "https://github.com",
-  },
-  {
-    title: "Project title 2",
-    image: projectImage2,
-    description: `This is sample project description random things are here in description This is sample
-project lorem ipsum generator for dummy content`,
-    techstack: "HTML/CSS, JavaScript",
-    previewLink: "https://google.com",
-    githubLink: "https://github.com",
-  },
-  {
-    title: "Project title 3",
-    image: projectImage3,
-    description: `This is sample project description random things are here in description This is sample
-project lorem ipsum generator for dummy content`,
-    techstack: "HTML/CSS, JavaScript",
-    previewLink: "https://google.com",
-    githubLink: "https://github.com",
-  },
-  {
-    title: "Project title 4",
-    image: projectImage4,
-    description: `This is sample project description random things are here in description This is sample
-project lorem ipsum generator for dummy content`,
-    techstack: "HTML/CSS, JavaScript",
-    previewLink: "https://google.com",
-    githubLink: "https://github.com",
-  },
-  {
-    title: "Project title 5",
-    image: projectImage5,
-    description: `This is sample project description random things are here in description This is sample
-project lorem ipsum generator for dummy content`,
-    techstack: "HTML/CSS, JavaScript",
-    previewLink: "https://google.com",
-    githubLink: "https://github.com",
-  },
-  {
-    title: "Project title 6",
+    title: "React Portfolio Website",
     image: projectImage6,
-    description: `This is sample project description random things are here in description This is sample
-project lorem ipsum generator for dummy content`,
+    description: `A personal portfolio website showcasing projects, skills, and experience. Built with responsive design and deployed on Netlify for seamless user experience.`,
+    techstack: "HTML/CSS, JavaScript, ReactJs, Netlify",
+    previewLink: "https://my-portfolio-subash-r770.netlify.app/projects",
+    githubLink: "https://github.com/Subash770/My-PortFolio",
+  },
+  {
+    title: "RevShop-Microservice Application",
+    image: projectImage1,
+    description: `An e-commerce application built using a microservices architecture. Features include product management, user authentication, and service communication via Zipkin for distributed tracing.`,
+    techstack: "HTML/CSS, JS, Java, SpringBoot, Hibernate, SQL, Git, Zipkin",
+    previewLink: "#",
+    githubLink: "https://github.com/Subash770/Ecom-Project-MicroService",
+  },
+  {
+    title: "Traffic Sign Recognition for Autonomous Vehicle Using Machine Learning",
+    image: projectImage2,
+    description: `A machine learning model for recognizing traffic signs in real-time, improving autonomous vehicle navigation. Implemented using GoogLeNet and PyTorch for high accuracy.`,
+    techstack: "GoogLeNet, C#, PyTorch",
+    previewLink: "#",
+    githubLink: "#",
+  },
+  {
+    title: "Falcon Drones - Figma Prototype",
+    image: projectImage3,
+    description: `Designed a mobile application prototype for Falcon Drone Delivery services. Created visually appealing interfaces using Figma and Canva.`,
+    techstack: "Figma, Canva",
+    previewLink: "https://www.figma.com/proto/tQGEHeyRP1u259zZlOjvKU/FALCON?node-id=0-1&t=gg1GXzClYp1rqs3t-1",
+    githubLink: "#",
+  },
+  {
+    title: "Spinner Website",
+    image: projectImage4,
+    description: `Developed a modern and interactive website using HTML, CSS, and JavaScript. Features include responsive design and dynamic UI elements.`,
     techstack: "HTML/CSS, JavaScript",
-    previewLink: "https://google.com",
-    githubLink: "https://github.com",
+    previewLink: "https://curious-cajeta-2325a9.netlify.app/",
+    githubLink: "https://github.com/Subash770/Spinner-Website",
+  },
+  {
+    title: "Prixima Website",
+    image: projectImage5,
+    description: `Created a fully responsive and user-friendly website using HTML, CSS, and JavaScript. Designed to provide an engaging user experience.`,
+    techstack: "HTML/CSS, JavaScript",
+    previewLink: "https://tiny-centaur-a8249f.netlify.app/",
+    githubLink: "https://github.com/Subash770/Prixima-Website",
   },
 ];
 
