@@ -35,7 +35,7 @@ export const logos = {
 // Enter your Personal Details here
 export const personalDetails = {
   name: "Subash R",
-  tagline: "I create dynamic and engaging web applications.",
+  tagline: "I build things for the web",
   img: profile,
   about: `I am a passionate Software Developer from India with a strong foundation in full-stack development. I hold a Bachelor's degree in Electronics and Communication Engineering and have undergone professional training at Revature, where I honed my skills in Java, Spring Boot, Hibernate, and other cutting-edge technologies. With hands-on experience in building scalable microservices and designing seamless frontend interfaces, I aim to deliver robust and user-friendly web applications.
 
