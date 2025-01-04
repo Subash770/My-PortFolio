@@ -1,4 +1,3 @@
-// Enter all your detials in this file
 // Logo images
 import logogradient from "./assets/logo.svg";
 import logo from "./assets/logo2.svg";
@@ -36,7 +35,7 @@ export const logos = {
 // Enter your Personal Details here
 export const personalDetails = {
   name: "Subash R",
-  tagline: "I build things for web",
+  tagline: "I create dynamic and engaging web applications.",
   img: profile,
   about: `I am a passionate Software Developer from India with a strong foundation in full-stack development. I hold a Bachelor's degree in Electronics and Communication Engineering and have undergone professional training at Revature, where I honed my skills in Java, Spring Boot, Hibernate, and other cutting-edge technologies. With hands-on experience in building scalable microservices and designing seamless frontend interfaces, I aim to deliver robust and user-friendly web applications.
 
@@ -47,10 +46,10 @@ Currently, I'm enhancing my expertise in ReactJS and Spring Boot while contribut
 
 // Enter your Social Media URLs here
 export const socialMediaUrl = {
-  linkdein: "https://www.linkedin.com/",
-  github: "https://www.github.com/",
-  twitter: "https://twitter.com/",
-  instagram: "https://www.instagram.com/",
+  linkdein: "https://www.linkedin.com/subash-r770",
+  github: "https://www.github.com/subash770",
+  twitter: "#",
+  instagram: "#",
 };
 
 // Enter your Work Experience here
@@ -131,8 +130,8 @@ export const projectDetails = [
     image: projectImage2,
     description: `A machine learning model for recognizing traffic signs in real-time, improving autonomous vehicle navigation. Implemented using GoogLeNet and PyTorch for high accuracy.`,
     techstack: "GoogLeNet, C#, PyTorch",
-    previewLink: "#",
-    githubLink: "#",
+   // previewLink: "#",
+  //  githubLink: "#",
   },
   {
     title: "Falcon Drones - Figma Prototype",
@@ -140,7 +139,7 @@ export const projectDetails = [
     description: `Designed a mobile application prototype for Falcon Drone Delivery services. Created visually appealing interfaces using Figma and Canva.`,
     techstack: "Figma, Canva",
     previewLink: "https://www.figma.com/proto/tQGEHeyRP1u259zZlOjvKU/FALCON?node-id=0-1&t=gg1GXzClYp1rqs3t-1",
-    githubLink: "#",
+   // githubLink: "#",
   },
   {
     title: "Spinner Website",
