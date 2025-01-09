@@ -35,9 +35,11 @@ export const logos = {
 // Enter your Personal Details here
 export const personalDetails = {
   name: "Subash R",
-  tagline: "I build things for the web",
+  tagline: "Software Developer",
   img: profile,
-  about: `I am a passionate Software Developer from India with a strong foundation in full-stack development. I hold a Bachelor's degree in Electronics and Communication Engineering and have undergone professional training at Revature, where I honed my skills in Java, Spring Boot, Hibernate, and other cutting-edge technologies. With hands-on experience in building scalable microservices and designing seamless frontend interfaces, I aim to deliver robust and user-friendly web applications.
+  about: `I am a passionate Software Developer from India with a strong foundation in full-stack development. 
+  I hold a Bachelor's degree in Electronics and Communication Engineering and have undergone professional training at Revature, where I honed my skills in ReactJS, Java, Spring Boot, Hibernate, and other cutting-edge technologies.
+  With hands-on experience in building scalable microservices and designing seamless frontend interfaces, I aim to deliver robust and user-friendly web applications.
 
 Over the years, I've worked on projects ranging from e-commerce platforms to innovative IoT solutions like the 'Bio-inspired Octobot for child rescue,' which earned recognition at the IEEE Madras Student Paper Forum. My portfolio includes dynamic projects, such as the Spinner and Prixima websites, showcasing my versatility in frontend development with HTML, CSS, JavaScript, and Bootstrap.
 
@@ -86,8 +88,23 @@ export const eduDetails = [
     Type: "Full Time",
     Duration: "Aug 2020 - April 2024",
   },
+  {
+    Position: "HSC",
+    Company: `RMVMHSS`,
+    Location: "Villupuram",
+    Type: "Full Time",
+    Duration: "Jun 2018 - March 2020",
+  },
+  {
+    Position: "SSLC",
+    Company: `RVMHSS`,
+    Location: "Villupuram",
+    Type: "Full Time",
+    Duration: "Jun 2017 - March 2018",
+  },
     
 ];
+
 
 // Tech Stack and Tools
 export const techStackDetails = {
@@ -164,3 +181,38 @@ export const contactDetails = {
   email: "ssubash2651@gmail.com",
   phone: "+91 73390 55731",
 };
+
+export const awardDetails = [
+  {
+    title: "ISTE Best Student Award",
+    description: "Received the ISTE Best Student Award for excellence academics and volunteering in several educational and sports events",
+    organization: "ISTE, PSR Engineering College",
+    date: "Mar 2024",
+  },
+  {
+    title: "Best Paper Award",
+    description: "Awarded the Best Paper Award at MIT for an outstanding project presentation.",
+    organization: "MIT",
+    date: "Nov 2023",
+  },
+  {
+    title: "Dr. Kalaam Young Achiever Award",
+    description: "Awarded for the project 'Bio-inspired Octobot for child rescue'",
+    organization: "World Youth Federation",
+    date: "Oct 2023",
+  },
+  {
+    title: "ISRO Project Contest - Winner",
+    description: "Awarded for excellence in the ISRO Project Contest during World Space Week",
+    organization: "ISRO",
+    date: "Oct 2023",
+}
+,  {
+    title: "IEEE Finalist",
+    description: "Finalist in the IEEE Madras Student Paper Forum for the project 'Bio-inspired Octobot.'",
+    organization: "IEEE",
+    date: "May 2023",
+  },
+  
+  
+];

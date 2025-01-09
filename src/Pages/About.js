@@ -1,15 +1,16 @@
 import React from "react";
 import Work from "../Components/Work";
-import { personalDetails, workDetails, eduDetails } from "../Details";
+import Awards from "../Components/Awards"; // Import the Awards component
+import { personalDetails, workDetails, eduDetails, awardDetails } from "../Details";
 
 function About() {
   return (
-    <main className="container mx-auto max-width pt-10 pb-20 ">
+    <main className="container mx-auto max-width pt-10 pb-20">
       <section>
         <h1 className="text-2xl text-dark-heading dark:text-light-heading md:text-4xl xl:text-5xl xl:leading-tight font-bold">
           About Me
         </h1>
-        <p className="text-content py-8 lg:max-w-3xl">{personalDetails.about}</p>
+        <p className="text-content py-8 lg:max-w-3xl text-justify">{personalDetails.about}</p>
       </section>
       <section>
         <h1 className="text-2xl text-dark-heading dark:text-light-heading md:text-4xl xl:text-5xl xl:leading-tight font-bold">
@@ -43,6 +44,22 @@ function About() {
           ))
         )}
       </section>
+      <section>
+  <h1 className="text-2xl pt-10 text-dark-heading dark:text-light-heading md:text-4xl xl:text-5xl xl:leading-tight font-bold">
+    Awards
+  </h1>
+  {React.Children.toArray(
+    awardDetails.map(({ title, description, organization, date }) => (
+      <Awards
+        title={title}
+        description={description}
+        organization={organization}
+        date={date}
+      />
+    ))
+  )}
+</section>
+
     </main>
   );
 }
