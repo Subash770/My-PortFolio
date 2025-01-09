@@ -18,14 +18,13 @@ import git from "./assets/techstack/git.png";
 import npm from "./assets/techstack/npm.png";
 import postman from "./assets/techstack/postman.png";
 import figma from "./assets/techstack/figma.png";
+import springboot from "./assets/techstack/springboot.png";
 // Porject Images
-import projectImage1 from "./assets/projects/project1.jpg";
-import projectImage2 from "./assets/projects/project2.jpg";
-import projectImage3 from "./assets/projects/project3.jpg";
-import projectImage4 from "./assets/projects/project4.jpg";
-import projectImage5 from "./assets/projects/project5.jpg";
-import projectImage6 from "./assets/projects/project6.jpg";
 
+import prixima from "./assets/projects/Prixima.png";
+import spinner from "./assets/projects/Spinner.png";
+import shopnow from "./assets/projects/ShopNow.png";
+import falcon from "./assets/projects/Falcon.png";
 // Logos
 export const logos = {
   logogradient: logogradient,
@@ -122,59 +121,9 @@ export const techStackDetails = {
   git: git,
   github: github,
   figma: figma,
+  springboot:springboot,
 };
 
-// Enter your Project Details here
-export const projectDetails = [
-  {
-    title: "ShopNow",
-    image: projectImage6,
-    description: `A responsive e-commerce platform designed to enhance user shopping experience with intuitive navigation, secure payment options, and seamless product management `,
-    techstack: "HTML/CSS, JavaScript, ReactJs, Vercel",
-    previewLink: "https://shop-now-frontend-one.vercel.app/",
-    githubLink: "https://github.com/Subash770/ShopNow-Frontend",
-  },
-  {
-    title: "RevShop-Microservice Application",
-    image: projectImage1,
-    description: `An e-commerce application built using a microservices architecture. Features include product management, user authentication, and service communication via Zipkin for distributed tracing.`,
-    techstack: "HTML/CSS, JS, Java, SpringBoot, Hibernate, SQL, Git, Zipkin",
-    previewLink: "#",
-    githubLink: "https://github.com/Subash770/Ecom-Project-MicroService",
-  },
-  {
-    title: "Traffic Sign Recognition for Autonomous Vehicle Using Machine Learning",
-    image: projectImage2,
-    description: `A machine learning model for recognizing traffic signs in real-time, improving autonomous vehicle navigation. Implemented using GoogLeNet and PyTorch for high accuracy.`,
-    techstack: "GoogLeNet, C#, PyTorch",
-   // previewLink: "#",
-  //  githubLink: "#",
-  },
-  {
-    title: "Falcon Drones - Figma Prototype",
-    image: projectImage3,
-    description: `Designed a mobile application prototype for Falcon Drone Delivery services. Created visually appealing interfaces using Figma and Canva.`,
-    techstack: "Figma, Canva",
-    previewLink: "https://www.figma.com/proto/tQGEHeyRP1u259zZlOjvKU/FALCON?node-id=0-1&t=gg1GXzClYp1rqs3t-1",
-   // githubLink: "#",
-  },
-  {
-    title: "Spinner Website",
-    image: projectImage4,
-    description: `Developed a modern and interactive website using HTML, CSS, and JavaScript. Features include responsive design and dynamic UI elements.`,
-    techstack: "HTML/CSS, JavaScript",
-    previewLink: "https://curious-cajeta-2325a9.netlify.app/",
-    githubLink: "https://github.com/Subash770/Spinner-Website",
-  },
-  {
-    title: "Prixima Website",
-    image: projectImage5,
-    description: `Created a fully responsive and user-friendly website using HTML, CSS, and JavaScript. Designed to provide an engaging user experience.`,
-    techstack: "HTML/CSS, JavaScript",
-    previewLink: "https://tiny-centaur-a8249f.netlify.app/",
-    githubLink: "https://github.com/Subash770/Prixima-Website",
-  },
-];
 
 // Enter your Contact Details here
 export const contactDetails = {
@@ -245,3 +194,64 @@ export const articlesDetails = [
     link: "https://www.geeksforgeeks.org/pytorch-connection-between-lossbackward-and-optimizerstep/",
   },
 ];
+
+
+//project carousel
+export const projectData = [
+  {
+    title: "ShopNow",
+    description: "A responsive e-commerce platform designed to enhance user shopping experience with intuitive navigation, secure payment options, and seamless product management",
+    techstack: "HTML/CSS, JavaScript, ReactJs, Redux, Vercel",
+    image: shopnow, // Replace with your screenshot path
+    previewLink: "https://shop-now-frontend-one.vercel.app/",
+    githubLink: "https://github.com/Subash770/ShopNow-Frontend",
+  },
+  {
+    title: "Prixima",
+    description: "Created a fully responsive and user-friendly website using HTML, CSS, and JavaScript. Designed to provide an engaging user experience",
+    techstack: "HTML/CSS, JavaScript",
+    image:      prixima, // Replace with your screenshot path
+    previewLink: "https://tiny-centaur-a8249f.netlify.app/",
+    githubLink: "https://github.com/Subash770/Prixima-Website",
+  },
+  {
+    title: "Spinner",
+    description: "Developed a modern and interactive website using HTML, CSS, and JavaScript. Features include responsive design and dynamic UI elements.",
+    techstack: "HTML/CSS, JavaScript",
+
+    image: spinner, // Replace with your screenshot path
+   previewLink: "https://curious-cajeta-2325a9.netlify.app/",
+    githubLink: "https://github.com/Subash770/Spinner-Website",
+  },
+ 
+  {
+    title: "Falcon Drones - Figma Prototype",
+    description: "Designed a mobile application prototype for Falcon Drone Delivery services. Created visually appealing interfaces using Figma and Canva.",
+    techstack: "UI/UX Design, Figma, Canva",
+    image: falcon, // Replace with your screenshot path
+    previewLink: "https://www.figma.com/proto/tQGEHeyRP1u259zZlOjvKU/FALCON?node-id=0-1&t=gg1GXzClYp1rqs3t-1",
+    githubLink: "https://github.com/Subash770/Falcon-Figma-Prototype",
+  },
+];
+
+
+
+// Enter your Project Details here
+// export const projectDetails = [
+// 
+//   {
+//     title: "RevShop-Microservice Application",
+//     image: projectImage1,
+//     description: `An e-commerce application built using a microservices architecture. Features include product management, user authentication, and service communication via Zipkin for distributed tracing.`,
+//     techstack: "HTML/CSS, JS, Java, SpringBoot, Hibernate, SQL, Git, Zipkin",
+//     previewLink: "#",
+//     githubLink: "https://github.com/Subash770/Ecom-Project-MicroService",
+//   },
+//   {
+//     title: "Traffic Sign Recognition for Autonomous Vehicle Using Machine Learning",
+//     image: projectImage2,
+//     description: `A machine learning model for recognizing traffic signs in real-time, improving autonomous vehicle navigation. Implemented using GoogLeNet and PyTorch for high accuracy.`,
+//     techstack: "GoogLeNet, C#, PyTorch",
+//    // previewLink: "#",
+//   //  githubLink: "#",
+//   },
