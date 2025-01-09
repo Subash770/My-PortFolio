@@ -213,6 +213,35 @@ export const awardDetails = [
     organization: "IEEE",
     date: "May 2023",
   },
-  
-  
+];
+
+export const articlesDetails = [
+  {
+    title: "DNS Amplification",
+    link: "https://www.geeksforgeeks.org/dns-amplification/",
+  },
+  {
+    title: "Ruby on Rails - AJAX",
+    link: "https://www.geeksforgeeks.org/ruby-on-rails-ajax/",
+  },
+  {
+    title: "Saving Long URLs with Pandas and XlsxWriter",
+    link: "https://www.geeksforgeeks.org/saving-long-urls-with-pandas-and-xlsxwriter/",
+  },
+  {
+    title: "Python Regex: Replace Captured Groups",
+    link: "https://www.geeksforgeeks.org/python-regex-replace-captured-groups/",
+  },
+  {
+    title: "Ruby on Rails - Directory Structure",
+    link: "https://www.geeksforgeeks.org/ruby-on-rails-directory-structure/",
+  },
+  {
+    title: "How to Spread Django Unit Tests Over Multiple Files?",
+    link: "https://www.geeksforgeeks.org/how-to-spread-django-unit-tests-over-multiple-files/",
+  },
+  {
+    title: "PyTorch: Connection Between loss.backward() and optimizer.step()",
+    link: "https://www.geeksforgeeks.org/pytorch-connection-between-lossbackward-and-optimizerstep/",
+  },
 ];

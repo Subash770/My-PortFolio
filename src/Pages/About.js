@@ -1,8 +1,8 @@
 import React from "react";
 import Work from "../Components/Work";
 import Awards from "../Components/Awards"; // Import the Awards component
-import { personalDetails, workDetails, eduDetails, awardDetails } from "../Details";
-
+import { personalDetails, workDetails, eduDetails, awardDetails,articlesDetails } from "../Details";
+import Articles from "../Components/Articles";
 function About() {
   return (
     <main className="container mx-auto max-width pt-10 pb-20">
@@ -60,6 +60,9 @@ function About() {
   )}
 </section>
 
+<section>
+<Articles articles={articlesDetails} />
+</section>
     </main>
   );
 }
