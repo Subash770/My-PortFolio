@@ -127,12 +127,12 @@ export const techStackDetails = {
 // Enter your Project Details here
 export const projectDetails = [
   {
-    title: "React Portfolio Website",
+    title: "ShopNow",
     image: projectImage6,
-    description: `A personal portfolio website showcasing projects, skills, and experience. Built with responsive design and deployed on Netlify for seamless user experience.`,
-    techstack: "HTML/CSS, JavaScript, ReactJs, Netlify",
-    previewLink: "https://my-portfolio-subash-r770.netlify.app/projects",
-    githubLink: "https://github.com/Subash770/My-PortFolio",
+    description: `A responsive e-commerce platform designed to enhance user shopping experience with intuitive navigation, secure payment options, and seamless product management `,
+    techstack: "HTML/CSS, JavaScript, ReactJs, Vercel",
+    previewLink: "https://shop-now-frontend-one.vercel.app/",
+    githubLink: "https://github.com/Subash770/ShopNow-Frontend",
   },
   {
     title: "RevShop-Microservice Application",
