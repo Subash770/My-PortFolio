@@ -25,6 +25,24 @@ import prixima from "./assets/projects/Prixima.png";
 import spinner from "./assets/projects/Spinner.png";
 import shopnow from "./assets/projects/ShopNow.png";
 import falcon from "./assets/projects/Falcon.png";
+
+//Certificates
+import acadexcellence from "./assets/certificate/acadexcellence.jpg";
+import circuitdebug from "./assets/certificate/circuitdebug.jpg";
+import circuitrix from "./assets/certificate/circuitrix.jpg";
+import codedebugging from  "./assets/certificate/codedebugging.jpg";
+import engineersday from  "./assets/certificate/engineersday.jpg";
+import footballii from  "./assets/certificate/football-ii.jpg";
+import footballiii from  "./assets/certificate/football-iii.jpg";
+import graphity from  "./assets/certificate/graphity.jpg";
+import icscan from  "./assets/certificate/icscan.jpg";
+import ieee from "./assets/certificate/ieee.jpg";
+import isroelocution from  "./assets/certificate/isro-elocution.jpg";
+import isroproject from "./assets/certificate/isro-project.jpg";
+import iste from "./assets/certificate/iste.jpg";
+import kalaamaward from "./assets/certificate/kalaamaward.jpg";
+import talento from "./assets/certificate/talento.jpg";
+import ttf from "./assets/certificate/ttf.jpg";
 // Logos
 export const logos = {
   logogradient: logogradient,
@@ -234,7 +252,22 @@ export const projectData = [
   },
 ];
 
-
+export const achievements = [
+  {
+    category: "Academic Achievements",
+    items: [
+      "Awarded 1st Prize for the “Elocution” contest as a part of WSW celebrations-2023, ISRO, Sriharikota.",
+      "Received 3rd prize for excellence in demonstrating project model of “Miniaturized Submarine with Missile Detection and Ranging System” at TALENTO 2K23 at IFET College of Engineering.",
+      "Awarded 1st prize for the “Circuitrix” contest at TECHATRON 2K23, University College of Engineering, Villupuram.",
+      "Received the “Innovative Project Award” at the Engineer’s Day organized by IIC on 15th Sept 2022 at IFET.",
+      "Awarded 1st prize in the “Code Debugging” contest in the Valedictory 2K23 organized by Association of Communication Engineers at IFET.",
+      "Awarded 1st prize in the event, talk about “Towards Future World” in the Valedictory 2K23 organized by Association of Communication Engineers at IFET.",
+      "Received 1st prize for “GRAPHITE-TY, and 2nd prize for CONNECTIONS” event on the 25th Annual Day SILVERFETE 2023.",
+      "Awarded “Certificate of Merit” in academic excellence for securing 1st rank in the 4th and 5th semester during the 25th Annual Day SILVERFETE 2023.",
+      "Completed the “Introduction to IOT” course through NPTEL with a consolidated score of 85% with Elite category in the Top 2%.",
+    ],
+  },
+];
 
 // Enter your Project Details here
 // export const projectDetails = [
@@ -255,3 +288,71 @@ export const projectData = [
 //    // previewLink: "#",
 //   //  githubLink: "#",
 //   },
+export const certificates = [
+  {
+    name: "Academic Excellance",
+    image:acadexcellence, // Replace with the correct path to the image
+  },
+  {
+    name: "Circuit Debugging Contest",
+    image: circuitdebug, // Replace with the correct path to the image
+  },
+  {
+    name: "Circuitrix Contest",
+    image: circuitrix, // Replace with the correct path to the image
+  },
+  {
+    name: "Code-Debugging Contest",
+    image: codedebugging, // Replace with the correct path to the image
+  },
+
+  {
+    name: "Project Contest - Engineer's Day",
+    image: engineersday, // Replace with the correct path to the image
+  },
+  {
+    name: "Football -Winner Up 22",
+    image: footballii, // Replace with the correct path to the image
+  },
+  {
+    name: "Football -Runner Up 23",
+    image: footballiii, // Replace with the correct path to the image
+  },
+  {
+    name: "Graphity Contest - SILVERFETE",
+    image: graphity, // Replace with the correct path to the image
+  },
+  {
+    name: "Sholastic Award",
+    image: icscan, // Replace with the correct path to the image
+  },
+  {
+    name: "IEE - SPF Finalist",
+    image: ieee, // Replace with the correct path to the image
+  },
+  {
+    name: "Elocution Winner ISRO WSW'23",
+    image: isroelocution, // Replace with the correct path to the image
+  },
+  {
+    name: "Project Design Contest ISRO WSW'23",
+    image: isroproject, // Replace with the correct path to the image
+  },
+  {
+    name: "ISTE Best Student Award",
+    image: iste, // Replace with the correct path to the image
+  },
+  {
+    name: "Dr. Kalaam Young Achiever Award",
+    image: kalaamaward, // Replace with the correct path to the image
+  },
+  {
+    name: "Project Contest - TALENTO'23",
+    image: talento, // Replace with the correct path to the image
+  },
+  {
+    name: "Talk Toward Future",
+    image: ttf, // Replace with the correct path to the image
+  },
+  
+];

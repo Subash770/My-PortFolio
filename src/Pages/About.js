@@ -4,6 +4,7 @@ import Awards from "../Components/Awards"; // Import the Awards component
 import { personalDetails, workDetails, eduDetails, awardDetails,articlesDetails } from "../Details";
 import Articles from "../Components/Articles";
 import Achievements from "../Components/Achievements";
+import Certificates from "../Components/Certificates";
 function About() {
   return (
     <main className="container mx-auto max-width pt-10 pb-20">
@@ -67,7 +68,7 @@ function About() {
 
 
 <Achievements />
-
+<Certificates/>
     </main>
   );
 }
