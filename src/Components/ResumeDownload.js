@@ -11,7 +11,7 @@ function ResumeDownload() {
         download="Subash-R.pdf" // The name the file will be saved as
         className="bg-gradient-to-r from-blue-500 to-blue-700 text-white py-2 px-6 rounded-md shadow-lg hover:bg-gradient-to-r hover:from-blue-600 hover:to-blue-800"
       >
-        Download Resume
+        Click Here
       </a>
     </div>
   );
