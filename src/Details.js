@@ -19,6 +19,17 @@ import npm from "./assets/techstack/npm.png";
 import postman from "./assets/techstack/postman.png";
 import figma from "./assets/techstack/figma.png";
 import springboot from "./assets/techstack/springboot.png";
+import c  from "./assets/techstack/c.png";
+import python  from "./assets/techstack/python.png";
+import java  from "./assets/techstack/java.png";
+import microservices from "./assets/techstack/microservices.png";
+import vercel  from "./assets/techstack/vercel.png";
+import netlify  from "./assets/techstack/netlify.png";
+import jenkins  from "./assets/techstack/jenkins.png";
+import docker  from "./assets/techstack/docker.png";
+import canva  from "./assets/techstack/canva.png";
+import tomcat  from "./assets/techstack/tomcat.png";
+import eclipse  from "./assets/techstack/eclipse.png";
 // Porject Images
 
 import prixima from "./assets/projects/Prixima.png";
@@ -140,6 +151,17 @@ export const techStackDetails = {
   github: github,
   figma: figma,
   springboot:springboot,
+  c:c,
+  python:python,
+  java:java,
+  microservices:microservices,
+  netlify:netlify,
+  vercel:vercel,
+  jenkins:jenkins,
+  docker:docker,
+  canva:canva,
+  tomcat:tomcat,
+  eclipse:eclipse,
 };
 
 
@@ -323,7 +345,7 @@ export const certificates = [
     image: graphity, // Replace with the correct path to the image
   },
   {
-    name: "Sholastic Award",
+    name: "Scholastic Award",
     image: icscan, // Replace with the correct path to the image
   },
   {
