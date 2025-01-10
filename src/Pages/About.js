@@ -3,7 +3,7 @@ import Work from "../Components/Work";
 import Awards from "../Components/Awards"; // Import the Awards component
 import { personalDetails, workDetails, eduDetails, awardDetails,articlesDetails } from "../Details";
 import Articles from "../Components/Articles";
-
+import Achievements from "../Components/Achievements";
 function About() {
   return (
     <main className="container mx-auto max-width pt-10 pb-20">
@@ -65,6 +65,8 @@ function About() {
 <Articles articles={articlesDetails} />
 </section>
 
+
+<Achievements />
 
     </main>
   );
