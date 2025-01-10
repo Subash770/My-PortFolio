@@ -58,6 +58,7 @@ function Home() {
 
   return (
     <main className="container mx-auto max-width section md:flex justify-between items-center">
+      
       <div>
         <h1
           ref={h11}
@@ -81,7 +82,11 @@ function Home() {
       <div className="mt-5 md:mt-0">
         <img ref={myimageref} className="w-1/2 md:ml-auto" src={img} alt="Subash R" />
       </div>
+      
     </main>
+    
+    
+
   );
 }
 
