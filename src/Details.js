@@ -36,6 +36,7 @@ import prixima from "./assets/projects/Prixima.png";
 import spinner from "./assets/projects/Spinner.png";
 import shopnow from "./assets/projects/ShopNow.png";
 import falcon from "./assets/projects/Falcon.png";
+import revshop from "./assets/projects/RevshopProducts.png";
 
 //Certificates
 import acadexcellence from "./assets/certificate/acadexcellence.jpg";
@@ -247,6 +248,14 @@ export const projectData = [
     githubLink: "https://github.com/Subash770/ShopNow-Frontend",
   },
   {
+    title:"Revshop[Ecom-MSA]",
+    description:"An e-commerce application built using a microservices architecture. Features include product management, user authentication, and service communication, Zipkin for distributed tracing.",
+    techstack:"HTML/CSS, JS, Java, SpringBoot,Spring Cloud (Eureka, Config Server), MySQL ,RestTemplate, Hibernate, Git, Zipkin",
+    image: revshop,
+    previewLink:"https://github.com/Subash770/Ecom-MSA",
+    githublink:"https://github.com/Subash770/Ecom-MSA",
+  },
+  {
     title: "Prixima",
     description: "Created a fully responsive and user-friendly website using HTML, CSS, and JavaScript. Designed to provide an engaging user experience",
     techstack: "HTML/CSS, JavaScript",
@@ -294,14 +303,7 @@ export const achievements = [
 // Enter your Project Details here
 // export const projectDetails = [
 // 
-//   {
-//     title: "RevShop-Microservice Application",
-//     image: projectImage1,
-//     description: `An e-commerce application built using a microservices architecture. Features include product management, user authentication, and service communication via Zipkin for distributed tracing.`,
-//     techstack: "HTML/CSS, JS, Java, SpringBoot, Hibernate, SQL, Git, Zipkin",
-//     previewLink: "#",
-//     githubLink: "https://github.com/Subash770/Ecom-Project-MicroService",
-//   },
+//  
 //   {
 //     title: "Traffic Sign Recognition for Autonomous Vehicle Using Machine Learning",
 //     image: projectImage2,
