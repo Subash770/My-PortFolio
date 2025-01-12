@@ -77,7 +77,7 @@ Currently, I'm enhancing my expertise in ReactJS and Spring Boot while contribut
 
 // Enter your Social Media URLs here
 export const socialMediaUrl = {
-  linkdein: "https://www.linkedin.com/subash-r770",
+  linkdein: "https://www.linkedin.com/in/subash-r770/",
   github: "https://www.github.com/subash770",
   twitter: "#",
   instagram: "#",
